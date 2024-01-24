@@ -154,7 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 value: _rememberMe,
                 onChanged: (value) {
                   setState(() {
-                    _rememberMe = value;
+                    _rememberMe = value!;
                   });
                 },
               ),
